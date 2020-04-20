@@ -23,15 +23,14 @@ function setup() {
         let tmp = anime({
             targets: pathEl,
             strokeDashoffset: [offset, 0],
-            duration: anime.random(1000, 3000),
-            delay: anime.random(0, 2000),
+            //duration: anime.random(1000, 3000),
+            //delay: anime.random(0, 2000),
             loop: true,
-            direction: 'alternate',
             easing: 'easeInOutSine',
             autoplay: false
         });
 
-        tmp.play()
+        //tmp.play()
             // storage of animated pats in a collection
         animatedPaths.push(tmp);
     }
